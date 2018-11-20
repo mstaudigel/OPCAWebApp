@@ -1,23 +1,35 @@
 .search {
-  position: fixed;
+  position: absolute;
   width: 50%;
   top: 25%;
   left: 25%;
 }
 
+#carouselExampleIndicators {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  left: 25%;
+  text-align: center;
+  height: 350px;
+  margin: 20px 0;
+}
+
+.form-control {
+  width: 100%;
+}
+
+#searchField {
+  width: 100%;
+}
+
+button {
+  float: right;
+}
+
 h1 {
   margin: 50px 0;
   text-align: center;
-}
-
-#carouselExampleIndicators {
-  position: fixed;
-  border: thick;
-  border-color: grey;
-  text-align: center;
-  width: 50%;
-  margin: 20px auto;
-  height: 350px;
 }
 
 .carousel-control-prev-icon {
